@@ -2,18 +2,30 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+.venv/
+venv/
+coverage/
+.coverage
 
 # Local backend data
+data/
 backend/data/
 
 # Next.js
+.next/
+node_modules/
 frontend/.next/
 frontend/node_modules/
 frontend/out/
 
 # Local logs
+*.log
 frontend/*.log
 
 # Environment files
+.env
+.env.local
+.env.*.local
 frontend/.env.local
+local.settings.json
 backend/local.settings.json

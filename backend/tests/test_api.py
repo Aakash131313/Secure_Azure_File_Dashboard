@@ -85,7 +85,7 @@ def test_upload_valid_json(api_module):
     request = FakeRequest(
         {
             "filename": "demo.json",
-            "content": {"owner": "azure", "classification": "confidential"},
+            "content": {"owner": "demo-team", "classification": "sample"},
         }
     )
 

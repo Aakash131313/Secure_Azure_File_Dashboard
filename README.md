@@ -41,11 +41,11 @@ Local JSON file storage is good for development but not production-grade.
 No authentication or authorization yet.
 No Blob Storage, Azure SQL, or Key Vault until explicitly added later.
 File upload is JSON-only and intentionally scoped.
-Paid Azure upgrade path:
+Optional future paid Azure upgrade path (not part of the current free project):
 
 Replace local/mock storage with Azure Blob Storage.
 Add Azure SQL or Cosmos DB for metadata.
-Use Key Vault for secrets.
+Use Key Vault for managed app configuration.
 Add Microsoft Entra ID authentication.
 Add Application Insights and richer observability.
 Implementation Phases

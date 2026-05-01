@@ -10,9 +10,9 @@ from .store import DuplicateFileError, FileStore, StoredFileNotFoundError
 class LocalJsonStore(FileStore):
     """Development storage backed by one local JSON file.
 
-    This is intentionally simple and free. In a production Azure version, this
-    class is the place to swap in Blob Storage for content and Azure SQL or
-    Cosmos DB for metadata.
+    This is intentionally simple and free. In an optional future paid Azure
+    version, this class is the place to swap in Blob Storage for content and
+    Azure SQL or Cosmos DB for metadata. Those services are not used here.
     """
 
     def __init__(self, data_file_path: str) -> None:

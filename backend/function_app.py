@@ -24,8 +24,9 @@ def get_store() -> FileStore:
     STORAGE_MODE=local uses a JSON file for local development.
     STORAGE_MODE=memory uses process memory for free-safe Azure demo mode.
 
-    Later Azure upgrades can replace this factory with Blob Storage, Azure SQL,
-    and Key Vault-backed configuration without changing the route handlers.
+    Optional future paid Azure upgrades can replace this factory with Blob
+    Storage, Azure SQL, and Key Vault-backed configuration without changing the
+    route handlers. Those services are not part of the current free project.
     """
 
     storage_mode = os.getenv("STORAGE_MODE", "local").strip().lower()

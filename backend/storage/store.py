@@ -21,7 +21,8 @@ class FileStore(ABC):
 
     This boundary keeps the Azure Functions endpoints stateless and makes it
     straightforward to replace local/mock storage with Azure Blob Storage for
-    content, Azure SQL for metadata, or Key Vault-backed credentials later.
+    content, Azure SQL for metadata, or Key Vault-backed credentials in an
+    optional future paid version. Those services are not used here.
     """
 
     @abstractmethod

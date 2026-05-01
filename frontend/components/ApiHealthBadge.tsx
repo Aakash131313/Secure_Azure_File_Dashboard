@@ -1,5 +1,7 @@
+import type { ApiHealthStatus } from "@/types";
+
 type ApiHealthBadgeProps = {
-  status: "online" | "offline" | "checking";
+  status: ApiHealthStatus;
   label?: string;
 };
 
