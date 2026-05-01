@@ -7,6 +7,6 @@
     "DATA_FILE_PATH": "./data/files.json"
   },
   "Host": {
-    "CORS": "*"
+    "CORS": "http://localhost:3000"
   }
 }
