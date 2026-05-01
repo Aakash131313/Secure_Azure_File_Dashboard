@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local backend data
+backend/data/
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# Local logs
+frontend/*.log
+
+# Environment files
+frontend/.env.local
+backend/local.settings.json
