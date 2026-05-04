@@ -29,3 +29,15 @@ frontend/*.log
 frontend/.env.local
 local.settings.json
 backend/local.settings.json
+
+# Azurite
+__azurite_db_*
+__blobstorage__/
+AzuriteConfig
+
+# Azure local
+local.settings.json
+microsoft.gpg
+
+# Node
+node_modules/
